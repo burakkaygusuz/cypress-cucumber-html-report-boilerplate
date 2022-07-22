@@ -6,13 +6,13 @@
   "scripts": {
     "test": "cypress run --spec **/*.feature",
     "cy:open": "cypress open --e2e --browser chrome",
-    "report" : "node cypress.report.js"
+    "report": "node cypress.report.js"
   },
   "keywords": [],
   "author": "Burak Kaygusuz",
   "devDependencies": {
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
-    "@cucumber/cucumber": "^8.3.1",
+    "@cucumber/cucumber": "^8.5.0",
     "cypress": "^10.3.0",
     "dayjs": "^1.11.3",
     "esbuild": "^0.14.48",
